@@ -13,6 +13,9 @@
 		8545DCE31D3B096E00A3BA1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8545DCE11D3B096E00A3BA1D /* Main.storyboard */; };
 		8545DCE51D3B096E00A3BA1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8545DCE41D3B096E00A3BA1D /* Assets.xcassets */; };
 		8545DCE81D3B096E00A3BA1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8545DCE61D3B096E00A3BA1D /* LaunchScreen.storyboard */; };
+		8545DCF11D3B0F1500A3BA1D /* GLDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8545DCF01D3B0F1500A3BA1D /* GLDataStack.m */; };
+		8545DCF41D3B0F1E00A3BA1D /* GLDataQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8545DCF31D3B0F1E00A3BA1D /* GLDataQueue.m */; };
+		8545DCF71D3B0F5400A3BA1D /* GLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8545DCF61D3B0F5400A3BA1D /* GLNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		8545DCE41D3B096E00A3BA1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8545DCE71D3B096E00A3BA1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8545DCE91D3B096E00A3BA1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8545DCEF1D3B0F1500A3BA1D /* GLDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLDataStack.h; sourceTree = "<group>"; };
+		8545DCF01D3B0F1500A3BA1D /* GLDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLDataStack.m; sourceTree = "<group>"; };
+		8545DCF21D3B0F1E00A3BA1D /* GLDataQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLDataQueue.h; sourceTree = "<group>"; };
+		8545DCF31D3B0F1E00A3BA1D /* GLDataQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLDataQueue.m; sourceTree = "<group>"; };
+		8545DCF51D3B0F5400A3BA1D /* GLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLNode.h; sourceTree = "<group>"; };
+		8545DCF61D3B0F5400A3BA1D /* GLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +71,17 @@
 				8545DCDC1D3B096E00A3BA1D /* AppDelegate.m */,
 				8545DCDE1D3B096E00A3BA1D /* ViewController.h */,
 				8545DCDF1D3B096E00A3BA1D /* ViewController.m */,
+				8545DCEF1D3B0F1500A3BA1D /* GLDataStack.h */,
+				8545DCF01D3B0F1500A3BA1D /* GLDataStack.m */,
+				8545DCF21D3B0F1E00A3BA1D /* GLDataQueue.h */,
+				8545DCF31D3B0F1E00A3BA1D /* GLDataQueue.m */,
 				8545DCE11D3B096E00A3BA1D /* Main.storyboard */,
 				8545DCE41D3B096E00A3BA1D /* Assets.xcassets */,
 				8545DCE61D3B096E00A3BA1D /* LaunchScreen.storyboard */,
 				8545DCE91D3B096E00A3BA1D /* Info.plist */,
 				8545DCD81D3B096E00A3BA1D /* Supporting Files */,
+				8545DCF51D3B0F5400A3BA1D /* GLNode.h */,
+				8545DCF61D3B0F5400A3BA1D /* GLNode.m */,
 			);
 			path = YeXueDemo;
 			sourceTree = "<group>";
@@ -149,9 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8545DCF71D3B0F5400A3BA1D /* GLNode.m in Sources */,
 				8545DCE01D3B096E00A3BA1D /* ViewController.m in Sources */,
+				8545DCF41D3B0F1E00A3BA1D /* GLDataQueue.m in Sources */,
 				8545DCDD1D3B096E00A3BA1D /* AppDelegate.m in Sources */,
 				8545DCDA1D3B096E00A3BA1D /* main.m in Sources */,
+				8545DCF11D3B0F1500A3BA1D /* GLDataStack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
